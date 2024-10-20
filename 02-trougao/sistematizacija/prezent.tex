@@ -22,8 +22,9 @@
 \end{frame}
 
 \section{Понављање основних појмова}
-
 \begin{frame}{Елементи троугла}
+
+\onslide<1->
 \begin{tikzpicture}
 \draw (0,0) -- (6,0) -- (3,4) -- cycle;
 \draw (0,0) node[below left] {$\mathnormal{A}$};
@@ -33,6 +34,8 @@
 \draw (5,0) arc (180:127:1) node[midway,left] {$\beta$};
 \draw (3.75,3) arc (318:222:1) node[midway,below] {$\gamma$};
 \end{tikzpicture}
+
+\onslide<2->
 \begin{itemize}
     \item Темена: $\mathnormal{A}$, $\mathnormal{B}$, $\mathnormal{C}$
     \item Странице: $\mathnormal{AB}$, $\mathnormal{BC}$,
@@ -44,10 +47,12 @@
 \section{Збир углова у троуглу}
 \begin{frame}{Збир углова у троуглу}
 
+\onslide<1->
 \begin{itemize}
     \item Формула: $\alpha + \beta + \gamma = 180^\circ$
 \end{itemize}
 
+\onslide<2->
 \textbf{Задатак 1:}
 Ако су два угла у троуглу $45^\circ$ и $60^\circ$, колики је трећи угао?
 
@@ -55,21 +60,25 @@
 
 \begin{frame}\frametitle{Збир углова у троуглу}
 
+\onslide<1->
 \begin{block}{Теорема}
 Збир углова у сваком троуглу је 180 степени.
 \end{block}
 
+\onslide<2->
 \textbf{Задатак 2:}
 Ако су два угла у троуглу 60° и 80°, колико је трећи угао?
 
-\onslide{
+\onslide<3->{
 \textbf{Решење:} 
 Трећи угао је $180^\circ - 60^\circ - 80^\circ = 40^\circ$.
 }
 
+\onslide<4->
 \textbf{Задатак 3:}
 У једном троуглу, један угао је за 30° већи од другог, а трећи је двоструко већи од најмањег. Колики су сви углови тог троугла?
 
+\onslide<5->
 \textbf{Задатак 4:}
 Може ли троугао имати углове од 50°, 60° и 80°? Објасни свој одговор.
 
@@ -79,16 +88,37 @@
 
 \section{Углови на трансверзали и углови троугла}
 \begin{frame}{Углови на трансверзали и углови троугла}
-\begin{tikzpicture}
-% ... (нацртати паралелне праве и трансверзалу)
-\end{tikzpicture}
 
+\onslide<1->
+%\begin{tikzpicture}
+%% ... (нацртати паралелне праве и трансверзалу)
+%\end{tikzpicture}
+\begin{figure}[!ht]
+\centering
+\resizebox{0.2\textwidth}{!}{%
+\begin{tikzpicture}
+\tikzstyle{every node}=[font=\Large]
+\draw (0,1) -- (5,1);
+\draw (0,2) -- (5,2);
+\draw (1,0) -- (4,3.5);
+\draw (0,1) node[below right] {$\mathnormal{a}$};
+\draw (0,2) node[above right] {$\mathnormal{b}$};
+\draw (4,3.5) node[below right] {$\mathnormal{t}$};
+\end{tikzpicture}
+}%
+\caption{Трасверзала пресеца две паралеле}
+\label{transverzala}
+\end{figure}
+
+\onslide<2->
 \textbf{Задатак 5:}
 Ако су два угла на истој страни трансверзале и између паралелних правих $70^\circ$ и $110^\circ$, колики су углови у троуглу који се образује?
 
+\onslide<3->
 \textbf{Задатак 6:}
 Ако су две паралелне праве пресечене трансверсалом тако да је један од насталих унутрашњих наизменичних углова 75°, колики су сви остали унутрашњи углови?
 
+\onslide<4->
 \textbf{Задатак 7:}
 Нацртај две паралелне праве и једну трансверсалу. Означи све одговарајуће углове и њихове односе.
 
@@ -97,20 +127,24 @@
 \section{Однос страница и углова троугла}
 \begin{frame}{Однос страница и углова троугла}
 
+\onslide<1->
 \begin{itemize}
     \item Насупрот већег угла лежи већа страница.
     \item Насупрот једнаких углова леже једнаке странице.
 \end{itemize}
 
+\onslide<2->
 \textbf{Задатак 8:}
 У троуглу $\mathnormal{ABC}$ је $\alpha > \beta$.
 Која је од страница
 $\mathnormal{BC}$ или $\mathnormal{AC}$ већа? Зашто?
 
+\onslide<3->
 \textbf{Задатак 9:}
 У троуглу $\mathnormal{ABC}$, страница $\mathnormal{AB}$ је најдужа.
 Који је највећи угао у том троуглу? Објасни.
 
+\onslide<4->
 \textbf{Задатак 10:}
 Може ли троугао имати две странице дужине
 $5 \,\mathrm{cm}$ и $7 \,\mathrm{cm}$,
@@ -123,16 +157,19 @@ $5 \,\mathrm{cm}$ и $7 \,\mathrm{cm}$,
 \section{Неједнакост троугла}
 \begin{frame}{Неједнакост троугла}
 
+\onslide<1->
 Страница троугла је
 \begin{itemize}
     \item краћа од збира друге две странице,
     \item а дужа од њихове разлике.
 \end{itemize}
 
+\onslide<2->
 \textbf{Задатак 11:}
 Да ли је могуће конструисати троугао са страницама дужине
 $3 \,\mathrm{cm}$, $5 \,\mathrm{cm}$ и $8 \,\mathrm{cm}$? Објасни.
 
+\onslide<3->
 \textbf{Задатак 12:}
 Ако су две странице троугла дужине
 $4 \,\mathrm{cm}$ и $6 \,\mathrm{cm}$,
@@ -143,11 +180,13 @@ $4 \,\mathrm{cm}$ и $6 \,\mathrm{cm}$,
 \section{Странице и углови троугла}
 \begin{frame}{Странице и углови троугла}
 
+\onslide<1->
 \textbf{Задатак 13:}
 У једнакокраком троуглу, основица је дужине
 $8 \,\mathrm{cm}$, а краци су дужине $5 \,\mathrm{cm}$.
 Који је највећи угао у том троуглу?
 
+\onslide<2->
 \textbf{Задатак 14:}
 У једнакостраничном троуглу, сви углови су једнаки. Колика је мера сваког угла?
 
@@ -156,9 +195,11 @@ $8 \,\mathrm{cm}$, а краци су дужине $5 \,\mathrm{cm}$.
 \section{Врсте троуглова и основна својства}
 \begin{frame}{Врсте троуглова и основна својства}
 
+\onslide<1->
 \textbf{Задатак 15:}
 Наведи све врсте троуглова које знаш и опиши њихове особине.
 
+\onslide<2->
 \textbf{Задатак 16:}
 Нацртај један оштроугли, један правоугли и један тупоугли троугао.
 Означи њихове углове.
