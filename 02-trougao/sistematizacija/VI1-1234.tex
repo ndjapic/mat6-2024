@@ -1,0 +1,368 @@
+\documentclass[10pt,a5paper,addpoints]{exam}
+
+\usepackage{myPaper}
+\usepackage{multicol}
+\usepackage{amssymb,amsmath}
+\usepackage{epsf}
+
+\usepackage[OT2]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[serbian]{babel}
+
+\def\grupa#1#2#3#4{#1}
+\title{$\mathrm{VI}$ разред, група \grupa 1234}
+\author{Први писмени задатак
+ \thanks{
+  18 одлично,
+  14 врло добро,
+  10 добро,
+   5 довољно.
+ }
+}
+\date{Станишић, 25.\ октобар 2024.}
+%\date{}
+
+\printanswers
+%\renewcommand{\solutiontitle}{\noindent\textrm{Решење:}\enspace}
+\renewcommand{\solutiontitle}{}
+\pointsinmargin
+%\pointsinrightmargin
+\pointname{}
+%\marginpointname{\%}
+%\pagename{Страница}
+\hqword{Задатак:}
+\hpgword{Страница:}
+\hpword{Поени:}
+\hsword{Остварено:}
+\htword{Збир}
+\cellwidth{1em}
+%\gradetablestretch{1.1}
+\cfoot[]{Страница \thepage\ од \numpages}
+
+\def\abs|#1|{\left| #1 \right|}
+
+\hyphenation{
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{headandfoot}
+
+%\vspace*{\stretch 1}
+\noindent \gradetable[h]
+
+\begin{questions}
+
+\question %01.
+ Из скупа
+ $M = \{
+  \grupa
+   {4,-6,-18,3,0,-5,2}
+   {-4,6,18,-3,0,5,-2}
+   {4,6,-18,-3,0,-5,2}
+   {4,6,18,-3,0,-5,-2}
+ \}$ издвој подскупове:
+ \begin{parts}
+%
+ \part[1] $A$ \grupa{пози}{нега}{нега}{пози}тивних целих бројева.
+ \begin{solution}
+  $A = \{
+   \grupa
+    {4,3,2}
+    {-4,-3,-2}
+    {-18,-3,-5}
+    {4,6,18}
+  \}$.
+ \end{solution}
+%
+ \part[1] $B$ \grupa{нега}{пози}{пози}{нега}тивних целих бројева.
+ \begin{solution}
+  $B = \{
+   \grupa
+    {-6,-18,-5}
+    {6,18,5}
+    {4,6,2}
+    {-3,-5,-2}
+  \}$.
+ \end{solution}
+%
+ \end{parts}
+
+\question %03.
+ Израчунај:
+% \begin{multicols}2
+ \begin{parts}
+ \part[1] $\grupa{(−7)+(+5)}{8+(−5)}{(−6)+8}{(−8)+(-2)}$
+ \begin{solution}
+  $
+   \grupa
+    {(−7)+(+5) = -(7-5) = -2}
+    {8+(−5) = +(8-5) = 3}
+    {(−6)+8 = +(8-6) = 2}
+    {(−8)+(-2) = -(8+2) = 10}
+  $.
+ \end{solution}
+ \part[1] $\grupa{(-2)-(-7)}{(+4)-(-6)}{5-(-3)}{(-2)-(+4)}$
+ \begin{solution}
+  $
+   \grupa
+    {(-2)-(-7) = -2+7 = +(7-2) = 5}
+    {(+4)-(-6) = 4+6 = 10}
+    {5-(-3) = 5+3 = 8}
+    {(-2)-(+4) = -2-4 = -(2+4) = -6}
+  $.
+ \end{solution}
+ \part[1] $\grupa{(-3)⋅(-5)}{(-2)⋅(+4)}{(+2)⋅(-3)}{(-5)⋅(-2)}$
+ \begin{solution}
+  $
+   \grupa
+    {(-3)⋅(-5) = -(-( 3⋅5 )) = 15}
+    {(-2)⋅(+4) = -(+( 2⋅4 )) = -8}
+    {(+2)⋅(-3) = +(-( 2⋅3 )) = -6}
+    {(-5)⋅(-2) = -(-( 5⋅2 )) = 10}
+  $.
+ \end{solution}
+ \part[1] $\grupa{(-16):(+4)}{12:(-4)}{(-15):(-3)}{(-12):(-3)}$
+ \begin{solution}
+  $
+   \grupa
+    {(-16):(+4) = -(+( 16:4 )) = -4}
+    {12:(-4) = -( 12:4 ) = -3}
+    {(-15):(-3) = -(-( 15:3 )) = 5}
+    {(-12):(-3) = -(-( 12:3 )) = 4}
+  $.
+ \end{solution}
+ \end{parts}
+% \end{multicols}
+
+\question %02.
+ Испитај да ли постоји троугао:
+ \begin{parts}
+ \part[1] чије су странице
+  $\grupa 5445 \,\mathrm{cm}$,
+  $\grupa 3553 \,\mathrm{cm}$ и
+  $\grupa 9889 \,\mathrm{cm}$;
+ \begin{solution}
+  \grupa
+   {$3<5<9$,\quad $3+5=8<9$,\quad не постоји}
+   {$4<5<8$,\quad $4+5=9>8$,\quad постоји}
+   {$4<5<8$,\quad $4+5=9>8$,\quad постоји}
+   {$3<5<9$,\quad $3+5=8<9$,\quad не постоји}.
+ \end{solution}
+ \part[1] чији су унутрашњи углови
+  $\grupa{45}{65}{45}{65}^\circ$, $75^\circ$ и
+  $\grupa{60}{50}{60}{50}^\circ$.
+ \begin{solution}
+  $
+   \grupa{45}{65}{45}{65}^\circ +
+   75^\circ +
+   \grupa{60}{50}{60}{50}^\circ =
+   \grupa{120}{140}{120}{140}^\circ +
+   \grupa{60}{50}{60}{50}^\circ =
+   \grupa{180}{190}{180}{190}^\circ
+  $,\quad 
+  \grupa{постоји}{не постоји}{постоји}{не постоји}.
+ \end{solution}
+ \end{parts}
+
+\question[2] %04.
+    Препиши у вежбанку и допуни наредну реченицу.
+    \grupa{
+        У једнакокраком троуглу
+        једнаке странице називамо %\hfill\break
+        \underline{\Large\phantom{ краци }},
+        а трећа страница је %\hfill\break
+        \underline{\Large\phantom{ основица }}
+        тог троугла.
+        \begin{solution}
+            У једнакокраком троуглу
+            једнаке странице називамо %\hfill\break
+            \underline{\Large{ краци }},
+            а трећа страница је %\hfill\break
+            \underline{\Large{ основица }}
+            тог троугла.
+        \end{solution}
+    }{
+        У правоуглом троуглу
+        највећу страницу називамо %\hfill\break
+        \underline{\Large\phantom{ хипотенуза }},
+        а две мање странице су %\hfill\break
+        \underline{\Large\phantom{ катете }}
+        тог троугла.
+        \begin{solution}
+            У правоуглом троуглу
+            највећу страницу називамо %\hfill\break
+            \underline{\Large{ хипотенуза }},
+            а две мање странице су %\hfill\break
+            \underline{\Large{ катете }}
+            тог троугла.
+        \end{solution}
+    }{
+        Троугао чији је највећи угао туп називамо %\hfill\break
+        \underline{\Large\phantom{ тупоугли }}
+        троугао, а троугао који има три оштра угла је %\hfill\break
+        \underline{\Large\phantom{ оштроугли }}
+        троугао.
+        \begin{solution}
+            Троугао чији је највећи угао туп називамо %\hfill\break
+            \underline{\Large{ тупоугли }}
+            троугао, а троугао који има три оштра угла је %\hfill\break
+            \underline{\Large{ оштроугли }}
+        \end{solution}
+    }{
+        Троугао чије су све странице једнаке дужине
+        називамо\hfill\break
+        \underline{\Large\phantom{ једнакостранични }}
+        троугао, а троугао чије су две странице једнаке дужине
+        је %\hfill\break
+        \underline{\Large\phantom{ једнакокраки }}
+        троугао.
+        \begin{solution}
+            Троугао чије су све странице једнаке дужине
+            називамо\hfill\break
+            \underline{\Large{ једнакостранични }}
+            троугао, а троугао чије су две странице једнаке дужине
+            је %\hfill\break
+            \underline{\Large{ једнакокраки }}
+            троугао.
+        \end{solution}
+    }
+
+\question %05.
+ Дати су цели бројеви:
+ \grupa
+  {$11$, $12$, $-4$, $-21$, $-8$, $15$, $-10$}
+  {$-12$, $-4$, $-8$, $15$, $11$, $21$, $-10$}
+  {$11$, $-8$, $12$, $-4$, $-21$, $15$, $-10$}
+  {$-8$, $15$, $11$, $-12$, $-4$, $21$, $-10$}.
+ \begin{parts}
+ \part[1] Израчунај \grupa{збир}{разлику}{збир}{разлику}
+  нај\grupa{већ}{већ}{мањ}{мањ}ег и
+  нај\grupa{мањ}{мањ}{већ}{већ}ег од датих бројева.
+  \begin{solution}
+   $
+    \grupa
+     {15+(-21) = -(21-15) = -6}
+     {21-(-12) = 21+12 = 33}
+     {(-21)+15 = -(21-15) = -6}
+     {(-12)-21 = -(12+21) = -33}
+   $.
+  \end{solution}
+ \part[1] Поређај дате бројеве од
+  нај\grupa{мањ}{већ}{већ}{мањ}ег ка
+  нај\grupa{већ}{мањ}{мањ}{већ}ем.
+  \begin{solution}
+   $
+    \grupa
+     {-21 < -10 < -8 < -4 < 11 < 12 < 15}
+     {21 > 15 > 11 > -4 > -8 > -10 > -12}
+     {15 > 12 > 11 > -4 > -8 > -10 > -21}
+     {-12 < -10 < -8 < -4 < 11 < 15 < 21}
+   $
+  \end{solution}
+ \end{parts}
+
+\question[3] %03.
+ Израчунај вредност израза:
+ $
+  \grupa
+  {-14 + 6 ⋅ (-3) - (-48) : (-6)}
+  {-15 + (-52) : (-4) - 8 ⋅ (-3)}
+  {-17 - 9 ⋅ (-3) + (-68) : (-4)}
+  {-16 - (-45) : (-9) + 6 ⋅ (-3)}
+ $
+ \begin{solution}
+  \begin{align*}
+   \grupa
+    {-14 + 6 ⋅ (-3) - (-48) : (-6)}
+    {-15 + (-52) : (-4) - 8 ⋅ (-3)}
+    {-17 - 9 ⋅ (-3) + (-68) : (-4)}
+    {-16 - (-45) : (-9) + 6 ⋅ (-3)}
+   &= \grupa{-14 -18 -8}{-15 +13 +24}{-17 +27 +17}{-16 -5 -18}
+   \\ &= \grupa{-32 -8}{-2 +24}{-44 +17}{-21 -18}
+   \\ &= \grupa{-40}{22}{-27}{-39}
+  \end{align*}
+ \end{solution}
+
+\question[2] %09.
+ Угао \grupa{на основици}{при врху}{на основици}{при врху}
+ једнакокраког троугла
+ $\triangle ABC$ ($AC=BC$) је $\grupa 7557 0^\circ$.
+ Упореди дужине крака и основице тог троугла.
+ \begin{solution} \centering
+  \grupa{
+   $\alpha = \beta = 70^\circ$,\qquad
+   $\gamma = 180^\circ - 2 ⋅ 70^\circ
+   = 180^\circ - 140^\circ = 40^\circ$,\qquad
+   $\alpha > \gamma$,\qquad
+   $BC > AB$,\qquad
+   крак је дужи од основице.
+  }{
+   $\gamma = 50^\circ$,\qquad
+   $\alpha + \beta = 180^\circ - 50^\circ = 130^\circ$,\qquad
+   $\alpha = 130^\circ : 2 = 65^\circ$,\qquad
+   $\alpha > \gamma$,\qquad
+   $BC > AB$,\qquad
+   крак је дужи од основице.
+  }{
+   $\alpha = \beta = 50^\circ$,\qquad
+   $\gamma = 180^\circ - 2 ⋅ 50^\circ
+   = 180^\circ - 100^\circ = 80^\circ$,\qquad
+   $\alpha < \gamma$,\qquad
+   $BC < AB$,\qquad
+   крак је краћи од основице.
+  }{
+   $\gamma = 70^\circ$,\qquad
+   $\alpha + \beta = 180^\circ - 70^\circ = 110^\circ$,\qquad
+   $\alpha = 110^\circ : 2 = 55^\circ$,\qquad
+   $\alpha < \gamma$,\qquad
+   $BC < AB$,\qquad
+   крак је краћи од основице.
+  }
+ \end{solution}
+
+\question %08.
+ Дате су странице троугла
+ $a = \grupa{12}{10,\!5}{10}{11,\!5} \,\mathrm{cm}$ и
+ $\grupa bccb = \grupa{4,\!5}4{6,\!5}5 \,\mathrm{cm}$.
+ У којим гра\-ни\-ца\-ма је:
+ \begin{parts}
+ \part[2] трећа страница;
+ \begin{solution}
+  \begin{gather*}
+   a-b < c < a+b \\
+   \grupa{12}{10,\!5}{10}{11,\!5} - \grupa{4,\!5}4{6,\!5}5 < c <
+   \grupa{12}{10,\!5}{10}{11,\!5} + \grupa{4,\!5}4{6,\!5}5 \\
+   \grupa{7,\!5}{6,\!5}{3,\!5}{6,\!5} < c <
+   \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} \\
+   \text{Трећа страница је између }
+   \grupa{7,\!5}{6,\!5}{3,\!5}{6,\!5} \,\mathrm{cm}
+   \text{ и }
+   \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} \,\mathrm{cm}.
+  \end{gather*}
+ \end{solution}
+ \part[2] обим троугла?
+ \begin{solution}
+  \begin{gather*}
+   {\cal O} = a+b+c \\
+   a+b + 7,\!5 < {\cal O} <
+   a+b + \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} \\
+   \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} +
+   \grupa{7,\!5}{6,\!5}{3,\!5}{6,\!5} < {\cal O} <
+   \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} +
+   \grupa{16,\!5}{14,\!5}{16,\!5}{16,\!5} \\
+   \grupa{24}{21}{20}{23} < {\cal O} <
+   \grupa{33}{29}{33}{33} \\
+   \text{Обим је између } \grupa{24}{21}{20}{23} \,\mathrm{cm}
+   \text{ и } \grupa{33}{29}{33}{33} \,\mathrm{cm}.
+  \end{gather*}
+ \end{solution}
+ \end{parts}
+
+\end{questions}
+
+\end{document}
+%\{} ^2
+% $2,\!5 \,\mathrm{cm}$
+% \begin{multicols}2
