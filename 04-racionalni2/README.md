@@ -1,8 +1,7 @@
 # Рационални бројеви (други део)
 
-| [Фотографије табле](https://photos.app.goo.gl/WXmGje3rshfNpD6M8)
-| [Каталог линкова](https://ndjapic.github.io/zayopa/m6/05-racionalni2/)
-|
+| [Фотографије табле](https://photos.app.goo.gl/WXmGje3rshfNpD6M8) | [Каталог линкова](https://ndjapic.github.io/zayopa/m6/05-racionalni2/) |
+| --- | --- |
 
 ## Наставне јединице
 
