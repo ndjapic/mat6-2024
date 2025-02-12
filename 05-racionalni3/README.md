@@ -1,6 +1,6 @@
 # Рационални бројеви (трећи део)
 
-| [Фотографије табле](https://photos.app.goo.gl/WeTe4CR8aZzSTvSh6) | [Каталог линкова](https://ndjapic.github.io/zayopa/m6/07-racionalni2/) | [Задаци](https://www.overleaf.com/read/tzbvnfywhcgm#454ac7)
+| [Фотографије табле](https://photos.app.goo.gl/WeTe4CR8aZzSTvSh6) | [Каталог линкова](https://ndjapic.github.io/zayopa/m6/07-racionalni2/) | [Задаци](https://www.overleaf.com/read/dqbsmzmdygvj#b6a5fd) |
 | --- | --- | --- |
 
 ## Наставне јединице
