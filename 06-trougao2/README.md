@@ -1,4 +1,4 @@
-# Троугао 2
+# Троугао (други део)
 
 | [Фотографије табле](https://photos.app.goo.gl/4Qzz3JEagNJGed628)
 | [Каталог линкова](https://ndjapic.github.io/zayopa/m6/04-trougao2/)
