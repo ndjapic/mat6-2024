@@ -14,4 +14,4 @@
 
 Нацртај четири тачке у координатном систему, сваку у по једном квадранту.
 
-1: https://photos.app.goo.gl/ACJytwR3oT5FpDT56 "Фотографије табле"
+[1]: https://photos.app.goo.gl/ACJytwR3oT5FpDT56 "Фотографије табле"
