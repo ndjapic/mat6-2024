@@ -1,6 +1,7 @@
 # Рационални бројеви (четврти део)
 
-[Фотографије][1]
+| [Фотографије][1]
+| [Контролни][2] |
 
 ## Наставне јединице
 
@@ -23,3 +24,4 @@
 Нацртај четири тачке у координатном систему, сваку у по једном квадранту.
 
 [1]: https://photos.app.goo.gl/ACJytwR3oT5FpDT56 "Фотографије табле"
+[2]: https://drive.google.com/drive/folders/0B-Ml4P4pFIzwQlktY1JDOGd4T0U?resourcekey=0-UIlkcx3F7PsAjsKsOXPuRg&usp=drive_link "Претходни контролни задаци"
